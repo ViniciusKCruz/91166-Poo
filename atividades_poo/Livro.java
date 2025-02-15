@@ -56,7 +56,6 @@ public class Livro {
        public void solicitarPaginas() {
            System.out.print("Por favor, insira a quantidade de páginas: ");
            this.numeroDePaginas = sc.nextInt(); // Armazena o dado diretamente no atributo
-           //
        }
 
        public void solicitarPreco() {

@@ -5,14 +5,14 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        for(int i = 1; i <= 2; i++){
-        Livro livro = new Livro();
-        
+        System.out.println("Deseja cadastrar quantos livros?");
+        int livros = sc.nextInt();
 
-        // String tituloLivro;
-        // String autorLivro;
-        // int numeroPaginas;
-        // double precoLivro;
+        int []quantidade = new int[livros];
+
+        for(int i = 1; i <= quantidade.length; i++){
+        Livro livro = new Livro();
+
         
         livro.solicitarTitulo();
         livro.solicitarAutor();
@@ -29,4 +29,5 @@ public class Main {
         
         }
     }
+
 }
