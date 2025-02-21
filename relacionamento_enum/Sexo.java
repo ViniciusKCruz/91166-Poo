@@ -3,7 +3,6 @@ package relacionamento_enum;
 public enum Sexo {
     MASCULINO("Masculino"),
     FEMININO("Feminino"),
-    TRANS("Trans");
 
     private String texto;
 
